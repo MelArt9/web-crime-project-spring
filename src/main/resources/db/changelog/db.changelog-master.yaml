@@ -1,0 +1,21 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/scripts/01_create_table_crimeJournal.sql
+  - include:
+      file: db/changelog/scripts/02_create_table_profile.sql
+  - include:
+      file: db/changelog/scripts/03_add_login_unique_constraint.sql
+  - include:
+      file: db/changelog/scripts/04_add_email_unique_constraint.sql
+  - include:
+      file: db/changelog/scripts/05_add_login_check_constraint.sql
+  - include:
+      file: db/changelog/scripts/06_add_password_check_constraint.sql
+  - include:
+      file: db/changelog/scripts/07_add_email_check_constraint.sql
+  - include:
+      file: db/changelog/scripts/08_add_dateCrime_check_constraint.sql
+  - include:
+      file: db/changelog/scripts/09_add_description_check_constraint.sql
+  - include:
+      file: db/changelog/scripts/10_add_profileId_fk_constraint.sql
